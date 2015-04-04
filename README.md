@@ -27,3 +27,15 @@ a new node should be inserted - msny require sequentail scanning of most or all 
 - Difficulties arise in linked lists when it comes to reverse traversing. Singly linked lists are extremely difficult
 to navigate backwards, and while doubly linked lists are somewhat difficult to read, memory is wasted in allocating space for 
 a back pointer.
+
+#Queue
+- A queue is a particular kind of abstract data type or collection in which the entities in the collection are kept in order
+and the principal (or only) operations on the collection are the addition of entities to the rear terminal position, known as 
+enqueue, and the removal of entities from the front terminal position, known as dequeue.
+- This makes the queue a first in, first out (FIFO) data structure.
+- In a FIFO data structure, the first element added to the queue will be the first one to be removed.
+- This is equivalent to the requirement that once a new element is added, all elements that were added before have to
+be removed before the new element can be removed.
+- Often a peek or front operation is entered, returning the value of the front element without dequeuing it.
+- Theoretically, one characteristic of a queue is that it does not have a specific capacity.
+- Regardless of how many elements are already contained, a new element can always be added.
